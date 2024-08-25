@@ -1,0 +1,70 @@
+/* lista.css */
+
+/* Caixa da Lista de Compras */
+.lista-caixa {
+    background-color: #fff;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 2em 0; /* Adicionado espaçamento entre as seções */
+}
+
+/* Título da caixa */
+.lista-caixa h2 {
+    font-size: 1.5em;
+    color: #F55B64; /* Cor do texto */
+    margin-bottom: 1em;
+}
+
+/* Lista de itens */
+.item-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo dos itens na lista */
+.item {
+    background-color: #fff;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+/* Checkbox */
+.item-checkbox {
+    margin-right: 1em;
+}
+
+/* Estilo da label */
+.item-label {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Nome do item */
+.item-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #F55B64; /* Cor do texto */
+}
+
+/* Quantidade do item */
+.item-quantity {
+    color: #F55B64; /* Cor do texto */
+}
+
+/* Estilo para itens comprados */
+.comprado .item {
+    background-color: #e0e0e0; /* Cor de fundo para itens comprados */
+}
+
+/* Texto riscado */
+.riscado {
+    color: #F55B64; /* Cor do texto riscado */
+    text-decoration: line-through;
+}

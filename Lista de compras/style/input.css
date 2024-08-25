@@ -1,0 +1,29 @@
+/* input.css */
+
+/* Estilo dos campos de entrada e botão de envio */
+input[type="text"], input[type="number"] {
+    width: calc(100% - 22px);
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.add-item-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-top: 1em;
+}
+
+.add-item-btn img {
+    width: 100px;
+    vertical-align: middle;
+}
+
+.input-img {
+    width: 100px;
+    margin-bottom: 1em;
+}

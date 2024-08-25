@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/input.css">
+    <link rel="stylesheet" href="css/lista.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <main>
+        <!-- Imagem Inicial -->
+        <img src="assets/imagem inicial.svg" alt="Imagem Inicial" class="imagem-inicial">
+
+        <!-- Campo de Entrada e Botão -->
+        <form>
+            <img src="assets/Input.svg" alt="Campo de Entrada" class="input-img">
+            <button type="submit" class="add-item-btn">
+                <img src="assets/Salvar item.svg" alt="Salvar Item">
+            </button>
+        </form>
+
+        <!-- Caixa da Lista de Compras -->
+        <div class="lista-caixa">
+            <h2>Lista de Compras</h2>
+            <ul class="item-list">
+                <li class="item">
+                    <input type="checkbox" id="item1" class="item-checkbox">
+                    <label for="item1" class="item-label">
+                        <span class="item-name">Pão</span>
+                        <span class="item-quantity">1 unidade</span>
+                        <div class="item-actions">
+                            <img src="assets/edição.svg" alt="Editar" class="item-action-img">
+                            <img src="assets/excluir.svg" alt="Excluir" class="item-action-img">
+                        </div>
+                    </label>
+                </li>
+                <li class="item">
+                    <input type="checkbox" id="item2" class="item-checkbox">
+                    <label for="item2" class="item-label">
+                        <span class="item-name">Presunto</span>
+                        <span class="item-quantity">200 g</span>
+                        <div class="item-actions">
+                            <img src="assets/edição.svg" alt="Editar" class="item-action-img">
+                            <img src="assets/excluir.svg" alt="Excluir" class="item-action-img">
+                        </div>
+                    </label>
+                </li>
+                <li class="item">
+                    <input type="checkbox" id="item3" class="item-checkbox">
+                    <label for="item3" class="item-label">
+                        <span class="item-name">Queijo</span>
+                        <span class="item-quantity">150 g</span>
+                        <div class="item-actions">
+                            <img src="assets/edição.svg" alt="Editar" class="item-action-img">
+                            <img src="assets/excluir.svg" alt="Excluir" class="item-action-img">
+                        </div>
+                    </label>
+                </li>
+                <li class="item">
+                    <input type="checkbox" id="item4" class="item-checkbox">
+                    <label for="item4" class="item-label">
+                        <span class="item-name">Tomate</span>
+                        <span class="item-quantity">3 unidades</span>
+                        <div class="item-actions">
+                            <img src="assets/edição.svg" alt="Editar" class="item-action-img">
+                            <img src="assets/excluir.svg" alt="Excluir" class="item-action-img">
+                        </div>
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Divisor de Imagem -->
+        <img src="assets/Divisor.svg" alt="Divisor decorativo" class="divisor-img">
+
+        <!-- Caixa dos Itens Comprados -->
+        <div class="lista-caixa comprado">
+            <h2>Itens Comprados</h2>
+            <ul class="item-list">
+                <li class="item comprado-item">
+                    <input type="checkbox" id="comp-item1" class="item-checkbox" checked disabled>
+                    <label for="comp-item1" class="item-label">
+                        <span class="item-name riscado">Pão</span>
+                        <span class="item-quantity riscado">1 unidade</span>
+                        <div class="item-actions">
+                            <img src="assets/Edição (1).svg" alt="Editar" class="item-action-img">
+                            <img src="assets/Excluir (1).svg" alt="Excluir" class="item-action-img">
+                        </div>
+                    </label>
+                </li>
+                <li class="item comprado-item">
+                    <input type="checkbox" id="comp-item2" class="item-checkbox" checked disabled>
+                    <label for="comp-item2" class="item-label">
+                        <span class="item-name riscado">Presunto</span>
+                        <span class="item-quantity riscado">200 g</span>
+                        <div class="item-actions">
+                            <img src="assets/Edição (1).svg" alt="Editar" class="item-action-img">
+                            <img src="assets/Excluir (1).svg" alt="Excluir" class="item-action-img">
+                        </div>
+                    </label>
+                </li>
+                <li class="item comprado-item">
+                    <input type="checkbox" id="comp-item3" class="item-checkbox" checked disabled>
+                    <label for="comp-item3" class="item-label">
+                        <span class="item-name riscado">Queijo</span>
+                        <span class="item-quantity riscado">150 g</span>
+                        <div class="item-actions">
+                            <img src="assets/Edição (1).svg" alt="Editar" class="item-action-img">
+                            <img src="assets/Excluir (1).svg" alt="Excluir" class="item-action-img">
+                        </div>
+                    </label>
+                </li>
+                <li class="item comprado-item">
+                    <input type="checkbox" id="comp-item4" class="item-checkbox" checked disabled>
+                    <label for="comp-item4" class="item-label">
+                        <span class="item-name riscado">Tomate</span>
+                        <span class="item-quantity riscado">3 unidades</span>
+                        <div class="item-actions">
+                            <img src="assets/Edição (1).svg" alt="Editar" class="item-action-img">
+                            <img src="assets/Excluir (1).svg" alt="Excluir" class="item-action-img">
+                        </div>
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Divisor de Imagem -->
+        <img src="assets/Divisor.svg" alt="Divisor decorativo" class="divisor-img">
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <p>Desenvolvido por Igor, copia não comedia</p>
+    </footer>
+</body>
+</html>

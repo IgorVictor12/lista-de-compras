@@ -1,0 +1,19 @@
+/* reset.css */
+
+/* Remove margens e preenchimento padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define a fonte padrão e remove sublinhado dos links */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Remove sublinhado dos links e cores padrão */
+a {
+    text-decoration: none;
+    color: inherit;
+}
